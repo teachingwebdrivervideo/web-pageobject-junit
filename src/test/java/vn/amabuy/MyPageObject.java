@@ -29,13 +29,11 @@ public class MyPageObject extends PageObject {
 	protected MyPageObject() {
 		super();
 
-		// khởi tạo
 	}
 
 	protected MyPageObject(final WebDriver driver, Predicate<? super PageObject> callback) {
 		super(driver, callback);
 
-		// khởi tạo
 	}
 
 	public MyPageObject(final WebDriver driver, final int ajaxTimeout) {
