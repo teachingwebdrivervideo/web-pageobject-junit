@@ -20,7 +20,7 @@ Google Chrome is up to date
 Version 76.0.3809.100 (Official Build) (64-bit)
 ```
 
-### Tùy chỉnh cấu hình FirefoxDriver
+### Tùy chỉnh cấu hình ChromeDriver
 Mở file _src/test/resource/serenity.conf_ và kiểm tra các thông tin sau.
 
 ```
