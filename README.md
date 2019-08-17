@@ -23,7 +23,7 @@ Firefox: Version 68.0.2 (64-bit)
 Mở file _src/test/resource/serenity.conf_ và kiểm tra các thông tin sau.
 
 ```
-chrome.switches=--start-maximized;--incognito;
+chrome.switches="""--start-maximized;--incognito;"""
 ```
 ### Lệnh chạy kịch bản test
 
