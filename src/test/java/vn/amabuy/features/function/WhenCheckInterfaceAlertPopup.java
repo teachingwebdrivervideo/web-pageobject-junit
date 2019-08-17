@@ -40,7 +40,7 @@ public class WhenCheckInterfaceAlertPopup {
 	public void accept_confrim() {
 		alertSteps.open_web();
 		alertSteps.show_confirm();
-		//alertSteps.accept();
+		alertSteps.accept();
 	}
 
 	@Test
