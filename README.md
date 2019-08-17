@@ -20,7 +20,7 @@ You can obtain a copy of the license at https://mozilla.org/MPL/2.0/.)
 
 ### Đối với browser
 
-Click vào hambuger button góc trên bên phải. Chọn vào _Helps/About Firefox_
+Click vào hambuger button góc trên bên phải. Chọn vào _Help/About Firefox_
 ```
 Firefox: Version 68.0.2 (64-bit)
 ```
