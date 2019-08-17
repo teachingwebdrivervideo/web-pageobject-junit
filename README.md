@@ -21,18 +21,10 @@ Version 76.0.3809.100 (Official Build) (64-bit)
 ```
 
 ### Tùy chỉnh cấu hình ChromeDriver
-Mở file _src/test/resource/serenity.conf_ và kiểm tra các thông tin sau.
+Mở file _serenity.properties_ và kiểm tra các thông tin sau.
 
 ```
-# Chrome Args
-chrome.switches="""--start-maximized;--incognito;"""
-
-# Chrome Capabilities
-chrome {
-    capabilities {
-        unexpectedAlertBehaviour = ignore
-    }
-}
+serenity.extension.packages=vn.amabuy.capabilities.chrome
 ```
 ### Lệnh chạy kịch bản test
 
