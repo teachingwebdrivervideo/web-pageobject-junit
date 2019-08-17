@@ -14,9 +14,10 @@ ChromeDriver 75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch
 
 ### Đối với browser
 
-Click vào hambuger button góc trên bên phải. Chọn vào _Helps/About Firefox_
+Click vào hambuger button góc trên bên phải. Chọn vào _Help/About Google Chrome_
 ```
-Firefox: Version 68.0.2 (64-bit)
+Google Chrome is up to date
+Version 76.0.3809.100 (Official Build) (64-bit)
 ```
 
 ### Tùy chỉnh cấu hình FirefoxDriver
