@@ -8,35 +8,24 @@ Tránh những lỗi do không tương thích phiên bản cần kiểm tra gi�
 ### Đối với webdriver
 Di chuyển vào thư mục chứa webdriver là _web-pageobject-junit\drivers_ sau đó gõ lệnh: `chromedriver.exe --version`
 
-```# web-pageobject-junit
-Sample project for web automated testing
-
 ```
->.\chromedriver.exe --version
-ChromeDriver 75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155})
-
-Google Chrome: Version 75.0.3770.142 (Official Build) (64-bit)
-```
-
-Tùy chỉnh cấu hình ChromeDriver sử dụng `serenity.properties`
-
-
-
 ChromeDriver 75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155})
 ```
 
 ### Đối với browser
 
-Click vào hambuger button góc trên bên phải. Chọn vào _Helps/About Firefox_
+Click vào hambuger button góc trên bên phải. Chọn vào _Help/About Google Chrome_
 ```
-Firefox: Version 68.0.2 (64-bit)
+Google Chrome is up to date
+Version 76.0.3809.100 (Official Build) (64-bit)
 ```
 
-### Tùy chỉnh cấu hình FirefoxDriver
-Mở file _src/test/resource/serenity.conf_ và kiểm tra các thông tin sau.
+### Tùy chỉnh cấu hình ChromeDriver
+Mở file _serenity.properties_ và kiểm tra các thông tin sau.
 
 ```
-chrome.switches=--start-maximized;--incognito;
+# Chrome arguments
+#chrome.switches=start-maximized;--incognito;
 ```
 ### Lệnh chạy kịch bản test
 
