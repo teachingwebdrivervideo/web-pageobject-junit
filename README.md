@@ -14,17 +14,14 @@ You can obtain a copy of the license at https://mozilla.org/MPL/2.0/.)
 Firefox: Version 68.0.2 (64-bit)
 ```
 
-Tùy chỉnh cấu hình FirefoxDriver sử dụng `src/test/resource/serenity.conf`
+Tùy chỉnh cấu hình FirefoxDriver với `serenity.properties`
 
 ```
 # Define the default driver
 webdriver.gecko.driver=.\\drivers\\geckodriver.exe
 webdriver.base.url = https://www.amabuy.vn/
 
-webdriver.driver = provided
-webdriver.provided.type = mydriver
-webdriver.provided.mydriver = vn.amabuy.customedriver.FireFoxCustomeDriver
-thucydides.driver.capabilities = mydriver
+serenity.extension.packages=vn.amabuy.capabilities.firefox
 ```
 
 

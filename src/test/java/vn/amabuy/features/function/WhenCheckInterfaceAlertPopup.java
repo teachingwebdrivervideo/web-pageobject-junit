@@ -17,33 +17,34 @@ public class WhenCheckInterfaceAlertPopup {
 
 	@Managed
 	WebDriver driver;
-	
+
 	@Steps
 	AlertSteps alertSteps;
-	
+
 	@Test
 	public void accept_alert() {
 		alertSteps.open_web();
 		alertSteps.show_alert();
 		alertSteps.accept();
 	}
-	
+
 	@Test
 	public void cancel_confrim() {
 		alertSteps.open_web();
 		alertSteps.show_confirm();
 		alertSteps.cancel();
 	}
-	
+
 	@Test
+	@WithTag("accept_confrim")
 	public void accept_confrim() {
 		alertSteps.open_web();
 		alertSteps.show_confirm();
-		alertSteps.accept();
+		//alertSteps.accept();
 	}
-	
-	
+
 	@Test
+	@WithTag("prompt")
 	public void answer_popup() {
 		alertSteps.open_web();
 		alertSteps.show_popup();
