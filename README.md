@@ -43,11 +43,13 @@ thucydides.driver.capabilities = mydriver
 ### Lệnh chạy kịch bản test
 
 1. Chạy theo tag. Khi chạy theo tag tên file **PHẢI** đặt đúng với convention trong phần _configuration_ của _maven-failsafe-plugin_
+
 ```
 mvn clean verify -Dtags="register"
 ```
 
 2. Chạy theo tên file. Tên file có thể tùy biến, trong trường hợp này không cần theo convention nhưng không nên để tránh những lỗi không đáng có
+
 ```
 mvn clean verify -Dit.test=WhenRegisterNewAccount
 ```
