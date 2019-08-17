@@ -23,7 +23,9 @@ E.g: `git checkout -b configuration/firefox/customizedriver`
 
 Để chuyển qua (switch) giữa cách branch gõ lệnh : git checkout [tên nhánh]
 
-E.g `git checkout configuration/chrome/options/conf` lúc này gõ lại lệnh `git branch` bạn sẽ thấy nhánh đã được chuyển
+E.g `git checkout configuration/chrome/options/conf` lúc này gõ lại lệnh `git branch` bạn sẽ thấy nhánh đã được chuyển. 
+
+**Lưu ý lệnh này rất giống với lệnh tạo mới branch chỉ khác là không có tham số -b**
 ```
 * configuration/chrome/options/conf
   configuration/chrome/options/extendingpackage
