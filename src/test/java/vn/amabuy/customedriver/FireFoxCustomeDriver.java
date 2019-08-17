@@ -12,33 +12,31 @@ import net.thucydides.core.webdriver.DriverSource;
 
 public class FireFoxCustomeDriver implements DriverSource {
 
-    @Override
-    public WebDriver newDriver() {
-        // 1 profile
+	@Override
+	public WebDriver newDriver() {
+		// 1 profile
 		FirefoxProfile profile = new FirefoxProfile();
 		profile.setPreference("browser.startup.homepage", "http://www.google.com");
-		//profile.setPreference("browser.privatebrowsing.autostart", true);
-		
-		
+		// profile.setPreference("browser.privatebrowsing.autostart", true);
+
 		// 2 capaibilities
 		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 		capabilities.setCapability(FirefoxDriver.PROFILE, profile);
 		capabilities.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
-		
-		
+
 		// 3. options
 		FirefoxOptions options = new FirefoxOptions(capabilities);
 		// options.addArguments("--headless");
-		// options.addArguments("--width=800");
-		// options.addArguments("--height=800");
-		   options.addArguments("-private");
+		//options.addArguments("--width=300");
+		//options.addArguments("--height=300");
+		options.addArguments("-private");
 
-		// 4. Initialization (constructor ) firefox webdriver 
+		// 4. Initialization (constructor ) firefox webdriver
 		return new FirefoxDriver(options);
-    }
+	}
 
-        @Override
-    public boolean takesScreenshots() {
-        return true;
-    }
+	@Override
+	public boolean takesScreenshots() {
+		return true;
+	}
 }
