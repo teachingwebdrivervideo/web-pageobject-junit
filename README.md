@@ -42,15 +42,11 @@ Mọi thứ sẽ dễ dàng hơn nếu bạn học cách dùng git client deskto
 - https://www.sourcetreeapp.com/  ([Video tutorial](https://www.youtube.com/watch?v=FIabco-p_nY))
 - https://desktop.github.com/
 
-## Chỉnh sửa cấu hình cho WebDriver
-### Firefox
-Code mẫu trong branch [configuration/firefox/customizedriver](https://github.com/teachingwebdrivervideo/web-pageobject-junit/tree/configuration/firefox/customizedriver) cho [Bài #30](https://github.com/Jacobvu84/serenity-pageobject-junit-webdriver/issues/30): Chỉnh sửa cấu hình của WebDriver 
-
 
 ## Thống kê các cách có thể chỉnh sửa Webdriver
 | Hạng mục            | Firefox  | Chrome |
 |---------------------|----------|--------|
-| serenity.properties |          | Don    | 
-| serenity.conf       |          | Done   | 
-| extension           | Done     | Done   | 
-| customize           | Done     |        | 
+| serenity.properties |          | [Done](https://github.com/teachingwebdrivervideo/web-pageobject-junit/tree/chrome/capabilities-properties)   | 
+| serenity.conf       |          | [Done](https://github.com/teachingwebdrivervideo/web-pageobject-junit/tree/chrome/capabities-conf)   | 
+| extension           | [Done](https://github.com/teachingwebdrivervideo/web-pageobject-junit/tree/firefox/capabilities-extension)     | [Done](https://github.com/teachingwebdrivervideo/web-pageobject-junit/tree/chrome/capabilities-extension)   | 
+| customize           | [Done](https://github.com/teachingwebdrivervideo/web-pageobject-junit/tree/firefox/customize-driver)     |        | 
