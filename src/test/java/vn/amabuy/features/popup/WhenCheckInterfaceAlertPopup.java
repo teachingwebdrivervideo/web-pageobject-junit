@@ -36,7 +36,6 @@ public class WhenCheckInterfaceAlertPopup {
 	}
 
 	@Test
-	@WithTag("accept_confrim")
 	public void accept_confrim() {
 		alertSteps.open_web();
 		alertSteps.show_confirm();
