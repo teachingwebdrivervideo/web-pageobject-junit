@@ -27,6 +27,12 @@ public class WhenCheckInterfaceAlertPopup {
 		alertSteps.show_alert();
 		alertSteps.accept();
 	}
+	
+	@Test
+	@WithTag("visit")
+	public void test_open() {
+		alertSteps.open_web();
+	}
 
 	@Test
 	public void cancel_confrim() {
