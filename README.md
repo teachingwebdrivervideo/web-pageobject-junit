@@ -11,31 +11,33 @@ Trong trường hợp bạn có nhiều cấu hình khác nhau và để tránh 
 
 git checkout -b [tên nhánh]
 
-E.g: `git checkout -b configuration/firefox/customizedriver`
+E.g: `git checkout -b firefox/customize-driver`
 
 Để kiểm tra bạn đang đứng ở branh nào gõ lệnh: `git branch` hệ thống sẽ liệt kê toàn bộ số branch hiện có. Dấu * là thể hiện bạn đang làm việc trên nhánh đó
 ```
-  configuration/chrome/options/conf
-  configuration/chrome/options/extendingpackage
-* configuration/firefox/customizedriver
+  firefox/capabilities-extension
+  firefox/capabilities-properties
+  firefox/capabities-conf
+* firefox/customize-driver
   master
 ```
 
 Để chuyển qua (switch) giữa cách branch gõ lệnh : git checkout [tên nhánh]
 
-E.g `git checkout configuration/chrome/options/conf` lúc này gõ lại lệnh `git branch` bạn sẽ thấy nhánh đã được chuyển. 
+E.g `git checkout firefox/capabilities-extension` lúc này gõ lại lệnh `git branch` bạn sẽ thấy nhánh đã được chuyển. 
 
 **Lưu ý lệnh này rất giống với lệnh tạo mới branch chỉ khác là không có tham số -b**
 ```
-* configuration/chrome/options/conf
-  configuration/chrome/options/extendingpackage
-  configuration/firefox/customizedriver
+* firefox/capabilities-extension
+  firefox/capabilities-properties
+  firefox/capabities-conf
+  firefox/customize-driver
   master
 ```
 
 Để đẩy code lên đúng nhánh đang làm việc gõ lệnh dưới đây. Lưu ý trước khi push cần phải gõ lệnh `add` và `commit`
 ```
-git push --set-upstream origin configuration/firefox/customizedriver
+git push --set-upstream origin firefox/capabilities-extension
 ```
 
 Mọi thứ sẽ dễ dàng hơn nếu bạn học cách dùng git client desktop. Tải và cài đặt theo link dưới đây
