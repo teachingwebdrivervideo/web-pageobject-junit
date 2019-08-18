@@ -1,5 +1,5 @@
 # web-pageobject-junit
-Sample project for web automated testing
+Thay đổi cấu hình Chrome Driver bằng extension package
 
 ## Kiểm tra mức độ tương thích (compatibility) 
 
