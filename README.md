@@ -1,5 +1,5 @@
 # web-pageobject-junit
-Sample project for web automated testing
+Sử dụng sereinty.conf để thay đổi cấu hình của Gecko Driver Capabilities
 
 ## Kiểm tra mức độ tương thích (compatibility) 
 
@@ -24,9 +24,6 @@ Version 76.0.3809.100 (Official Build) (64-bit)
 Mở file _src/test/resource/serenity.conf_ và kiểm tra các thông tin sau.
 
 ```
-# Firefox Args
-chrome.switches="""--start-maximized;--incognito;"""
-
 # GeckoDriver Capabilities
 serenity.driver.capabilities="unexpectedAlertBehaviour:ignore"
 ```
