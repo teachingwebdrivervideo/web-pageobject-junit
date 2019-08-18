@@ -46,7 +46,7 @@ Mọi thứ sẽ dễ dàng hơn nếu bạn học cách dùng git client deskto
 ## Thống kê các cách có thể chỉnh sửa Webdriver
 | Hạng mục            | Firefox  | Chrome |
 |---------------------|----------|--------|
-| serenity.properties |          | [Done](https://github.com/teachingwebdrivervideo/web-pageobject-junit/tree/chrome/capabilities-properties)   | 
+| serenity.properties |  Pending      | [Done](https://github.com/teachingwebdrivervideo/web-pageobject-junit/tree/chrome/capabilities-properties)   | 
 | serenity.conf       | [Done](https://github.com/teachingwebdrivervideo/web-pageobject-junit/tree/firefox/capabities-conf)         | [Done](https://github.com/teachingwebdrivervideo/web-pageobject-junit/tree/chrome/capabities-conf)   | 
 | extension           | [Done](https://github.com/teachingwebdrivervideo/web-pageobject-junit/tree/firefox/capabilities-extension)     | [Done](https://github.com/teachingwebdrivervideo/web-pageobject-junit/tree/chrome/capabilities-extension)   | 
-| customize           | [Done](https://github.com/teachingwebdrivervideo/web-pageobject-junit/tree/firefox/customize-driver)     |        | 
+| customize           | [Done](https://github.com/teachingwebdrivervideo/web-pageobject-junit/tree/firefox/customize-driver)     |   [Done](https://github.com/teachingwebdrivervideo/web-pageobject-junit/tree/chrome/customize-driver)       | 
