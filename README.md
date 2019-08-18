@@ -24,15 +24,11 @@ Version 76.0.3809.100 (Official Build) (64-bit)
 Mở file _src/test/resource/serenity.conf_ và kiểm tra các thông tin sau.
 
 ```
-# Chrome Args
+# Firefox Args
 chrome.switches="""--start-maximized;--incognito;"""
 
-# Chrome Capabilities
-chrome {
-    capabilities {
-        unexpectedAlertBehaviour = ignore
-    }
-}
+# GeckoDriver Capabilities
+serenity.driver.capabilities="unexpectedAlertBehaviour:ignore"
 ```
 ### Lệnh chạy kịch bản test
 
